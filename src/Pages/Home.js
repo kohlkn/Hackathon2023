@@ -2,7 +2,7 @@ import React from 'react'
 import './Styles/Home.css'
 import './Components/Button.css'
 import {useNavigate} from 'react-router-dom'
-import AutoComplete from 'react-google-autocomplete'
+//import AutoComplete from 'react-google-autocomplete'
 import bg from './Images/background.jpg'
 import bgs from './Images/background.png'
 
