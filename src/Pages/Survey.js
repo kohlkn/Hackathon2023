@@ -5,6 +5,7 @@ import './Components/Button.css'
 export default function Survey() {
 
     return (
+        <div>
         <div class='the'>
             <h2 class='h2'> Please answer these questions so that I can get to know you better!!!
             </h2>
@@ -59,6 +60,8 @@ export default function Survey() {
         </div>
             <br></br>
             <button class='button'>Submit</button>
+        </div>
+        <br></br>
         </div>
             
     )
