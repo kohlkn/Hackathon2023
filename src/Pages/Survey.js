@@ -1,5 +1,7 @@
 //import react from 'react'
 import './Styles/Survey.css'
+import './Components/Button.css'
+
 export default function Survey() {
 
     return (
@@ -53,11 +55,11 @@ export default function Survey() {
             <input type="radio" id="$$$" name="fav_language" value="$$$"/>
             <label for="$$$">$$$</label><br></br>
             </form>
-            </div>
         </div>
-    
-
-            </div>
+        </div>
+            <br></br>
+            <button class='button'>Submit</button>
+        </div>
             
     )
 }

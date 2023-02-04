@@ -1,9 +1,9 @@
 .the {
     
     height: 600px;
-    background-color: orange;
+    background-color: lightgray;
     text-align: center;
-    border:2px solid red;
+    border:2px solid darkblue;
     margin-left: 150px;
     margin-right: 150px;
 
