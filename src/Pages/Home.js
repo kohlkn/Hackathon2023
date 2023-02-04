@@ -6,9 +6,12 @@ export default function Home() {
     return (
         <div>
             <header>
-                <div>
-                    <h1 class='typed'>Welcome</h1>
+                <center>
+                <div class='typed'>
+                    <h1>Welcome to TrekSpec</h1>
+                    <h2>hello</h2>
                 </div>
+                </center>
             </header>
 
             <footer>
