@@ -1,5 +1,5 @@
 .nav {
-    /*background-color: white;*/
+    
 }
 
 .list {
@@ -18,6 +18,9 @@ a {
 }*/
 
 a:hover, a:active {
-    color: green;
+    color: darkblue;
     text-decoration: none;
+    background-color: rgba(102, 102, 236, 0.358);
+    border-radius: 20px;
+    padding: 1px 10px;
 }
