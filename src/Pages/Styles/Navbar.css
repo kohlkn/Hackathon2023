@@ -1,15 +1,16 @@
 .nav {
-    
+    text-align: center;
 }
 
 .list {
     list-style: none;
-    text-align: center;
+
 }
 
 .alist {
     text-decoration: none;
     color: blue;
+
 }
 
 /*a:visited {

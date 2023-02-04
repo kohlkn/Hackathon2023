@@ -1,10 +1,13 @@
 import react from 'react'
+import './Styles/Itinerary.css'
 
 export default function Itinerary() {
 
     return (
         <div>
-            Itinerary Page
+            <div class='day'>
+                Itinerary Page
+            </div>
         </div>
     )
 }
