@@ -1,0 +1,11 @@
+.button {
+    background-color: rgb(190, 230, 255);
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid lightskyblue;
+    color: rgb(21, 189, 21);
+}
+
+.button:hover, button:active {
+    background-color: lightskyblue;
+}
