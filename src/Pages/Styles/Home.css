@@ -12,6 +12,15 @@ footer {
     text-align: center;
 }
 
+.foot {
+    color: white;
+    text-decoration: none;
+}
+
+.foot:hover {
+    color:white;
+}
+
 .typed {
     overflow: hidden;
     border-right: .15em solid white;

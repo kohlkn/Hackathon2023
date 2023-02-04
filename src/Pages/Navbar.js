@@ -6,9 +6,9 @@ export default function Navbar() {
     return (
         <div class='nav'>
             <ul class='list'>
-                <li><a href='/Home'>Home</a></li>
-                <li><a href='/Survey'>Survey</a></li>
-                <li><a href='/Itinerary'>Itinerary</a></li>
+                <li><a href='/Home' class='alist'>Home</a></li>
+                <li><a href='/Survey' class='alist'>Survey</a></li>
+                <li><a href='/Itinerary' class='alist'>Itinerary</a></li>
             </ul>
         </div>
     )
