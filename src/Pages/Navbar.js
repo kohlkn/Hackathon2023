@@ -4,12 +4,15 @@ import './Styles/Navbar.css'
 export default function Navbar() {
 
     return (
-        <div>
-            <ul class='list'>
-                <li><a href='/Home'>Home</a></li>
-                <li><a href='/Survey'>Survey</a></li>
-                <li><a href='/Itinerary'>Itinerary</a></li>
-            </ul>
+        <div class='nav'>
+                <br></br>
+                <a href='/Home' class='alist'>Home</a>
+                <br></br>
+                <a href='/Survey' class='alist'>Survey</a>
+                <br></br>
+                <a href='/Itinerary' class='alist'>Itinerary</a>
+                <br></br>
+                <br></br>
         </div>
     )
 }
