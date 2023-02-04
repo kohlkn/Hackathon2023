@@ -18,6 +18,6 @@ a {
 }*/
 
 a:hover, a:active {
-    color: red;
+    color: green;
     text-decoration: none;
 }
