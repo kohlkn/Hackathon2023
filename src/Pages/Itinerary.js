@@ -49,8 +49,8 @@ export default function Itinerary() {
     threethirtyam = '',
     fouram = '',
     fourthirtyam = '',
-    fiveam = ''
-    //fivethirtyam = '',
+    fiveam = '',
+    fivethirtyam = ''
 
     return (
         <div>
@@ -65,7 +65,7 @@ export default function Itinerary() {
                 <div class='time'>6:00am</div> {sixam}
                 <hr></hr>
                 <br></br>
-                <hr></hr>
+                <hr></hr> {sixthirtyam}
                 <br></br>
                 <hr></hr>
                 <br></br>
@@ -73,7 +73,7 @@ export default function Itinerary() {
                 <div class='time'>7:00am</div> {sevenam}
                 <hr></hr>
                 <br></br>
-                <hr></hr>
+                <hr></hr> {seventhirtyam}
                 <br></br>
                 <hr></hr>
                 <br></br>
@@ -81,7 +81,7 @@ export default function Itinerary() {
                 <div class='time'>8:00am</div> {eightam}
                 <hr></hr>
                 <br></br>
-                <hr></hr>
+                <hr></hr> {eightthirtyam}
                 <br></br>
                 <hr></hr>
                 <br></br>
@@ -89,7 +89,7 @@ export default function Itinerary() {
                 <div class='time'>9:00am</div> {nineam}
                 <hr></hr>
                 <br></br>
-                <hr></hr>
+                <hr></hr> {ninethirtyam}
                 <br></br>
                 <hr></hr>
                 <br></br>
@@ -97,7 +97,7 @@ export default function Itinerary() {
                 <div class='time'>10:00am</div>{tenam}
                 <hr></hr>
                 <br></br>
-                <hr></hr>
+                <hr></hr> {tenthirtyam}
                 <br></br>
                 <hr></hr>
                 <br></br>
@@ -105,7 +105,7 @@ export default function Itinerary() {
                 <div class='time'>11:00am</div> {elevenam}
                 <hr></hr>
                 <br></br>
-                <hr></hr>
+                <hr></hr> {eleventhirtyam}
                 <br></br>
                 <hr></hr>
                 <br></br>
@@ -113,7 +113,7 @@ export default function Itinerary() {
                 <div class='time'>12:00pm</div> {twelvepm}
                 <hr></hr>
                 <br></br>
-                <hr></hr>
+                <hr></hr> {twelvethirtypm}
                 <br></br>
                 <hr></hr>
                 <br></br>
@@ -121,7 +121,7 @@ export default function Itinerary() {
                 <div class='time'>1:00pm</div> {onepm}
                 <hr></hr>
                 <br></br>
-                <hr></hr>
+                <hr></hr> {onethirtypm}
                 <br></br>
                 <hr></hr>
                 <br></br>
@@ -129,7 +129,7 @@ export default function Itinerary() {
                 <div class='time'>2:00pm</div> {twopm}
                 <hr></hr>
                 <br></br>
-                <hr></hr>
+                <hr></hr> {twothirtypm}
                 <br></br>
                 <hr></hr>
                 <br></br>
@@ -137,7 +137,7 @@ export default function Itinerary() {
                 <div class='time'>3:00pm</div> {threepm}
                 <hr></hr>
                 <br></br>
-                <hr></hr>
+                <hr></hr> {threethirtypm}
                 <br></br>
                 <hr></hr>
                 <br></br>
@@ -145,7 +145,7 @@ export default function Itinerary() {
                 <div class='time'>4:00pm</div> {fourpm}
                 <hr></hr>
                 <br></br>
-                <hr></hr>
+                <hr></hr> {fourthirtypm}
                 <br></br>
                 <hr></hr>
                 <br></br>
@@ -153,7 +153,7 @@ export default function Itinerary() {
                 <div class='time'>5:00pm</div>{fivepm}
                 <hr></hr>
                 <br></br>
-                <hr></hr>
+                <hr></hr> {fivethirtypm}
                 <br></br>
                 <hr></hr>
                 <br></br>
@@ -161,7 +161,7 @@ export default function Itinerary() {
                 <div class='time'>6:00pm</div> {sixpm}
                 <hr></hr>
                 <br></br>
-                <hr></hr>
+                <hr></hr> {sixthirtypm}
                 <br></br>
                 <hr></hr>
                 <br></br>
@@ -169,7 +169,7 @@ export default function Itinerary() {
                 <div class='time'>7:00pm</div> {sevenpm}
                 <hr></hr>
                 <br></br>
-                <hr></hr>
+                <hr></hr> {seventhirtypm}
                 <br></br>
                 <hr></hr>
                 <br></br>
@@ -177,7 +177,7 @@ export default function Itinerary() {
                 <div class='time'>8:00pm</div> {eightpm}
                 <hr></hr>
                 <br></br>
-                <hr></hr>
+                <hr></hr> {eightthirtypm}
                 <br></br>
                 <hr></hr>
                 <br></br>
@@ -185,7 +185,7 @@ export default function Itinerary() {
                 <div class='time'>9:00pm</div> {ninepm}
                 <hr></hr>
                 <br></br>
-                <hr></hr>
+                <hr></hr> {ninethirtypm}
                 <br></br>
                 <hr></hr>
                 <br></br>
@@ -193,7 +193,7 @@ export default function Itinerary() {
                 <div class='time'>10:00pm</div> {tenpm}
                 <hr></hr>
                 <br></br>
-                <hr></hr>
+                <hr></hr> {tenthirtypm}
                 <br></br>
                 <hr></hr>
                 <br></br>
@@ -201,7 +201,7 @@ export default function Itinerary() {
                 <div class='time'>11:00pm</div> {elevenpm}
                 <hr></hr>
                 <br></br>
-                <hr></hr>
+                <hr></hr> {eleventhirtypm}
                 <br></br>
                 <hr></hr>
                 <br></br>
@@ -209,7 +209,7 @@ export default function Itinerary() {
                 <div class='time'>12:00am</div> {twelveam}
                 <hr></hr>
                 <br></br>
-                <hr></hr>
+                <hr></hr> {twelvethirtyam}
                 <br></br>
                 <hr></hr>
                 <br></br>
@@ -217,7 +217,7 @@ export default function Itinerary() {
                 <div class='time'>1:00am</div> {oneam}
                 <hr></hr>
                 <br></br>
-                <hr></hr>
+                <hr></hr> {onethirtyam}
                 <br></br>
                 <hr></hr>
                 <br></br>
@@ -225,7 +225,7 @@ export default function Itinerary() {
                 <div class='time'>2:00am</div> {twoam}
                 <hr></hr>
                 <br></br>
-                <hr></hr>
+                <hr></hr> {twothirtyam}
                 <br></br>
                 <hr></hr>
                 <br></br>
@@ -233,7 +233,7 @@ export default function Itinerary() {
                 <div class='time'>3:00am</div> {threeam}
                 <hr></hr>
                 <br></br>
-                <hr></hr>
+                <hr></hr> {threethirtyam}
                 <br></br>
                 <hr></hr>
                 <br></br>
@@ -241,7 +241,7 @@ export default function Itinerary() {
                 <div class='time'>4:00am</div> {fouram}
                 <hr></hr>
                 <br></br>
-                <hr></hr>
+                <hr></hr> {fourthirtyam}
                 <br></br>
                 <hr></hr>
                 <br></br>
@@ -249,7 +249,7 @@ export default function Itinerary() {
                 <div class='time'>5:00am</div> {fiveam}
                 <hr></hr>
                 <br></br>
-                <hr></hr>
+                <hr></hr> {fivethirtyam}
                 <br></br>
                 <hr></hr>
                 <br></br>
