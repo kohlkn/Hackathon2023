@@ -1,7 +1,14 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import './Styles/Itinerary.css'
 
 export default function Itinerary() {
+
+    const [data, setData] = useState()
+
+    fetch('./data.json')
+    .then((response) => response.json())
+    .then((json) => console.log(json));
+
     const day = 'February 14th'
     const sixam = 'eat leaves with raff',
     sixthirtyam = '',
@@ -12,7 +19,7 @@ export default function Itinerary() {
     nineam = '',
     ninethirtyam = '',
     tenam = '',
-    tenthirtyam = '',
+    tenthirtyam = 'Brunch w the bitches',
     elevenam = '',
     eleventhirtyam = '',
     twelvepm = '',
@@ -61,6 +68,7 @@ export default function Itinerary() {
                     <br></br>
                     {day}
                 </div>
+                <div class='sixtoseven'>
                 <hr class='mainhr'></hr>
                 <div class='time'>6:00am</div> {sixam}
                 <hr></hr>
@@ -69,6 +77,7 @@ export default function Itinerary() {
                 <br></br>
                 <hr></hr>
                 <br></br>
+                </div>
                 <hr class='mainhr'></hr>
                 <div class='time'>7:00am</div> {sevenam}
                 <hr></hr>
@@ -97,6 +106,7 @@ export default function Itinerary() {
                 <div class='time'>10:00am</div>{tenam}
                 <hr></hr>
                 <br></br>
+                <div class='brunch'>
                 <hr></hr> {tenthirtyam}
                 <br></br>
                 <hr></hr>
@@ -105,6 +115,7 @@ export default function Itinerary() {
                 <div class='time'>11:00am</div> {elevenam}
                 <hr></hr>
                 <br></br>
+                </div>
                 <hr></hr> {eleventhirtyam}
                 <br></br>
                 <hr></hr>
