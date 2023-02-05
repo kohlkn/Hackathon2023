@@ -43,11 +43,11 @@ export default function Survey() {
         <input type="radio" id="five" name="radius" value="option2"
             checked={selectedOption === 'option2'}
             onChange={handleOptionChange}/>
-        <label for="one">5 miles</label><br></br>
+        <label for="five">5 miles</label><br></br>
         <input type="radio" id="ten" name="radius" value="option3"
             checked={selectedOption === 'option3'}
             onChange={handleOptionChange}/>
-        <label for="one">10 miles</label><br></br>
+        <label for="ten">10 miles</label><br></br>
 
             <br></br>
         </div>
