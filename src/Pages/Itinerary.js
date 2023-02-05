@@ -19,7 +19,7 @@ export default function Itinerary() {
     nineam = '',
     ninethirtyam = '',
     tenam = '',
-    tenthirtyam = 'Brunch w the bitches',
+    tenthirtyam = 'Brunch',
     elevenam = '',
     eleventhirtyam = '',
     twelvepm = '',
