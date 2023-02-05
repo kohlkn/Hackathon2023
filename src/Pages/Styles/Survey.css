@@ -9,7 +9,10 @@
 
 
 }
-input {
+.something {
+    width:100%;
+}
+.radius {
     width: 20px;
 
     
@@ -40,5 +43,8 @@ label {
 
 }
 .price{
+    position: relative;
+    left: 35px;
+    vertical-align: middle;
     
 }

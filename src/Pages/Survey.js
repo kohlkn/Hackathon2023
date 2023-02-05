@@ -7,6 +7,7 @@ export default function Survey() {
     const [selectedOption, setSelectedOption] = useState('')
     const [selectedOptionTwo, setSelectedOptionTwo] = useState('')
 
+
     const handleOptionChange = (e) => {
         setSelectedOption(e.target.value)
     }
@@ -31,20 +32,35 @@ export default function Survey() {
             
             <div>
                 Please enter the address of where you are staying.
+                <div class = 'something'> 
+                <br></br>
+                <input type = "text" name = "name" placeholder = "Street" halfwidth/>
+                <br></br>
+                <br></br>
+                <input type = "text" name = "name" placeholder = "City"/>
+                <br></br>
+                <br></br>
+                <input type = "text" name = "name" placeholder = "State"/>
+                <br></br>
+                <br></br>
+                <input type = "text" name = "name" placeholder = "Zip Code"/>
+                <br></br>
+                <br></br>
+                </div>
             </div>
             <div>
             What is your preferred travel radius?
         <div class='ok'>
         
-        <input type="radio" id="one" name="radius" value="onemile"
+        <input type="radio" id="one" class="radius" value="onemile"
             checked={selectedOption === 'onemile'}
             onChange={handleOptionChange}/>
         <label for="one">1 mile</label><br></br>
-        <input type="radio" id="five" name="radius" value="fivemiles"
+        <input type="radio" id="five" class="radius" value="fivemiles"
             checked={selectedOption === 'fivemiles'}
             onChange={handleOptionChange}/>
         <label for="five">5 miles</label><br></br>
-        <input type="radio" id="ten" name="radius" value="tenmiles"
+        <input type="radio" id="ten" class="radius" value="tenmiles"
             checked={selectedOption === 'tenmiles'}
             onChange={handleOptionChange}/>
         <label for="ten">10 miles</label><br></br>
@@ -75,15 +91,15 @@ export default function Survey() {
             What is your preferred price range?
             <div class='price'>
 
-            <input type="radio" id="$" name="price" value="cheap"
+            <input type="radio" id="$" class="price" value="cheap"
             checked={selectedOptionTwo === 'cheap'}
             onChange={handleOptionChangeTwo}/>
             <label for="$">$</label><br></br>
-            <input type="radio" id="$$" name="price" value="medium"
+            <input type="radio" id="$$" class="price" value="medium"
             checked={selectedOptionTwo === 'medium'}
             onChange={handleOptionChangeTwo}/>
             <label for="$$">$$</label><br></br>
-            <input type="radio" id="$$$" name="price" value="expensive"
+            <input type="radio" id="$$$" class="price" value="expensive"
             checked={selectedOptionTwo === 'expensive'}
             onChange={handleOptionChangeTwo}/>
             <label for="$$$">$$$</label><br></br>
