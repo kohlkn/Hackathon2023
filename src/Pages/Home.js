@@ -4,8 +4,6 @@ import './Components/Button.css'
 import {useNavigate} from 'react-router-dom'
 //import AutoComplete from 'react-google-autocomplete'
 import bg from './Images/background.jpg'
-
-
 export default function Home() {
 
     const navigate = useNavigate();
