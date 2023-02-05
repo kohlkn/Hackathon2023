@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import './Styles/Survey.css'
 import './Components/Button.css'
+import {useNavigate} from 'react-router-dom'
 
 export default function Survey() {
 
@@ -10,6 +11,12 @@ export default function Survey() {
     const [city, setCity] = useState('');
     const [state, setState] = useState('');
     const [zip, setZip] = useState('');
+
+    const navigate = useNavigate();
+
+    function handleClick(e) {
+        navigate('/Itinerary')
+    }
 
 
     const handleOptionChange = (e) => {
@@ -133,7 +140,7 @@ export default function Survey() {
         </div>
         
             <br></br>
-            <button class='button' type='submit'>Submit</button>
+            <button class='button' type='submit' onClick={(handleClick)}>Submit</button>
             </form>
         </div>
         <br></br>
