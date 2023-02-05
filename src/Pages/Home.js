@@ -4,6 +4,8 @@ import './Components/Button.css'
 import {useNavigate} from 'react-router-dom'
 //import AutoComplete from 'react-google-autocomplete'
 import bg from './Images/background.jpg'
+import raff from './Images/raff.png'
+
 export default function Home() {
 
     const navigate = useNavigate();
@@ -21,7 +23,8 @@ export default function Home() {
                     <div><br></br></div>
                     <div class='box'>
                         <h1 class='typed'>Welcome to TrekSpec</h1>
-                        <h2>This is a tool to make a personalized itinerary to your liking.</h2>
+                        <img src={raff} class='raff' />
+                        <h2>Hi! I'm Raff and I am here to assist you in your travels!</h2>
                         <button class='button' onClick={handleClick}>Get Started</button>
                     </div>
                 </center>

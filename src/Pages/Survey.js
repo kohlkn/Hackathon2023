@@ -36,16 +36,16 @@ export default function Survey() {
             What is your preferred travel radius?
         <div class='ok'>
         
-        <input type="radio" id="one" name="radius" value="option1"
-            checked={selectedOption === 'option1'}
+        <input type="radio" id="one" name="radius" value="onemile"
+            checked={selectedOption === 'onemile'}
             onChange={handleOptionChange}/>
         <label for="one">1 mile</label><br></br>
-        <input type="radio" id="five" name="radius" value="option2"
-            checked={selectedOption === 'option2'}
+        <input type="radio" id="five" name="radius" value="fivemiles"
+            checked={selectedOption === 'fivemiles'}
             onChange={handleOptionChange}/>
         <label for="five">5 miles</label><br></br>
-        <input type="radio" id="ten" name="radius" value="option3"
-            checked={selectedOption === 'option3'}
+        <input type="radio" id="ten" name="radius" value="tenmiles"
+            checked={selectedOption === 'tenmiles'}
             onChange={handleOptionChange}/>
         <label for="ten">10 miles</label><br></br>
 
@@ -75,16 +75,16 @@ export default function Survey() {
             What is your preferred price range?
             <div class='price'>
 
-            <input type="radio" id="$" name="price" value="option4"
-            checked={selectedOptionTwo === 'option4'}
+            <input type="radio" id="$" name="price" value="cheap"
+            checked={selectedOptionTwo === 'cheap'}
             onChange={handleOptionChangeTwo}/>
             <label for="$">$</label><br></br>
-            <input type="radio" id="$$" name="price" value="option5"
-            checked={selectedOptionTwo === 'option5'}
+            <input type="radio" id="$$" name="price" value="medium"
+            checked={selectedOptionTwo === 'medium'}
             onChange={handleOptionChangeTwo}/>
             <label for="$$">$$</label><br></br>
-            <input type="radio" id="$$$" name="price" value="option6"
-            checked={selectedOptionTwo === 'option6'}
+            <input type="radio" id="$$$" name="price" value="expensive"
+            checked={selectedOptionTwo === 'expensive'}
             onChange={handleOptionChangeTwo}/>
             <label for="$$$">$$$</label><br></br>
 

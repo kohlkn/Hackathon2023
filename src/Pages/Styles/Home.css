@@ -52,14 +52,18 @@ footer {
     position: relative;
 }
 
+.raff {
+    width: 20%;
+}
+
 .box {
     position: absolute;
     text-align: center;
     border: 2px solid darkblue;
     background-color: rgba(211, 211, 211, 0.695);
     padding: 100px 100px;
-    margin-top: -680px;
-    margin-left: 270px;
+    margin-top: -780px;
+    margin-left: 170px;
 }
 
 @media all and (max-width: 980px) {
@@ -82,8 +86,8 @@ footer {
         text-align: center;
         border: 2px solid darkblue;
         background-color: rgba(211, 211, 211, 0.695);
-        padding: 50px 50px;
-        margin-top: -420px;
-        margin-left: 6px;
+        padding: 5px 25px;
+        margin-top: -435px;
+        margin-left: 0px;
     }
 }
