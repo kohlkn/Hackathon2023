@@ -1,14 +1,32 @@
-//import react from 'react'
+import React, { useState } from 'react'
 import './Styles/Survey.css'
 import './Components/Button.css'
 
 export default function Survey() {
+
+    const [selectedOption, setSelectedOption] = useState('')
+    const [selectedOptionTwo, setSelectedOptionTwo] = useState('')
+
+    const handleOptionChange = (e) => {
+        setSelectedOption(e.target.value)
+    }
+
+    const handleOptionChangeTwo = (e) => {
+        setSelectedOptionTwo(e.target.value)
+    }
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        console.log(selectedOption)
+        console.log(selectedOptionTwo)
+    }
 
     return (
         <div>
         <div class='the'>
             <h2 class='h2'> Please answer these questions so that I can get to know you better!!!
             </h2>
+            <form onSubmit={handleSubmit}>
             
             
             <div>
@@ -17,51 +35,68 @@ export default function Survey() {
             <div>
             What is your preferred travel radius?
         <div class='ok'>
-        <form>
-            <input type="radio" id="html" name="fav_language" value="HTML"/>
-            <label for="html">1 mile</label><br></br>
-            <input type="radio" id="css" name="fav_language" value="CSS"/>
-            <label for="css">5 mile</label><br></br>
-            <input type="radio" id="javascript" name="fav_language" value="JavaScript"/>
-            <label for="javascript">10 mile</label><br></br>
-            </form>
+        
+        <input type="radio" id="one" name="radius" value="option1"
+            checked={selectedOption === 'option1'}
+            onChange={handleOptionChange}/>
+        <label for="one">1 mile</label><br></br>
+        <input type="radio" id="five" name="radius" value="option2"
+            checked={selectedOption === 'option2'}
+            onChange={handleOptionChange}/>
+        <label for="one">5 miles</label><br></br>
+        <input type="radio" id="ten" name="radius" value="option3"
+            checked={selectedOption === 'option3'}
+            onChange={handleOptionChange}/>
+        <label for="one">10 miles</label><br></br>
+
             <br></br>
         </div>
             </div>
+            {/*
             <div class='typeoffood'>
                 What type of food do you like?
                 
             </div>
             <div class=''>
-            <form class='food'>
-            <input type="checkbox" id="italian" name="fav_language" value="ITALIAN"/>
+
+            <input type="checkbox" id="italian" name="italian" value="ITALIAN"/>
             <label for="italian">Italian</label><br></br>
-            <input type="checkbox" id="asian" name="fav_language" value="ASIAN"/>
+            <input type="checkbox" id="asian" name="asian" value="ASIAN"/>
             <label for="asian">Asian </label><br></br>
-            <input type="checkbox" id="hispanic" name="fav_language" value="HISPANIC"/>
+            <input type="checkbox" id="hispanic" name="hispanic" value="HISPANIC"/>
             <label for="hispanic">Hispanic</label><br></br>
-            <input type="checkbox" id="american" name="fav_language" value="AMERICAN"/>
+            <input type="checkbox" id="american" name="american" value="AMERICAN"/>
             <label for="american">American</label><br></br>
-            </form>
+
             <br></br>
             </div>
+            */}
             <div>
             What is your preferred price range?
             <div class='price'>
-        <form>
-            <input type="radio" id="$" name="fav_language" value="$"/>
+
+            <input type="radio" id="$" name="price" value="option4"
+            checked={selectedOptionTwo === 'option4'}
+            onChange={handleOptionChangeTwo}/>
             <label for="$">$</label><br></br>
-            <input type="radio" id="$$" name="fav_language" value="$$"/>
+            <input type="radio" id="$$" name="price" value="option5"
+            checked={selectedOptionTwo === 'option5'}
+            onChange={handleOptionChangeTwo}/>
             <label for="$$">$$</label><br></br>
-            <input type="radio" id="$$$" name="fav_language" value="$$$"/>
+            <input type="radio" id="$$$" name="price" value="option6"
+            checked={selectedOptionTwo === 'option6'}
+            onChange={handleOptionChangeTwo}/>
             <label for="$$$">$$$</label><br></br>
+
+            </div>
+        </div>
+        
+            <br></br>
+            <button class='button' type='submit'>Submit</button>
             </form>
         </div>
-        </div>
-            <br></br>
-            <button class='button'>Submit</button>
-        </div>
         <br></br>
+
         </div>
             
     )

@@ -1,8 +1,9 @@
-import react from 'react'
+import React, { useState } from 'react'
 import './Styles/Itinerary.css'
 
 export default function Itinerary() {
     const day = 'February 14th'
+    const sixam = 'cfa'
 
     return (
         <div>
@@ -14,7 +15,7 @@ export default function Itinerary() {
                     {day}
                 </div>
                 <hr class='mainhr'></hr>
-                <div class='time'>6:00am</div>
+                <div class='time'>6:00am</div> {sixam}
                 <hr></hr>
                 <br></br>
                 <hr></hr>
