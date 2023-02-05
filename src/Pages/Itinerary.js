@@ -3,7 +3,30 @@ import './Styles/Itinerary.css'
 
 export default function Itinerary() {
     const day = 'February 14th'
-    const sixam = 'cfa'
+    const sixam = '',
+    sevenam = '',
+    eightam = '',
+    nineam = '',
+    tenam = '',
+    elevenam = '',
+    twelvepm = '',
+    onepm = '',
+    twopm = '',
+    threepm = '',
+    fourpm = '',
+    fivepm = '',
+    sixpm = '',
+    sevenpm = '',
+    eightpm = '',
+    ninepm = '',
+    tenpm = '',
+    elevenpm = '',
+    twelveam = '',
+    oneam = '',
+    twoam = '',
+    threeam = '',
+    fouram = '',
+    fiveam = ''
 
     return (
         <div>
